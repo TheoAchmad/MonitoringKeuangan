@@ -1,0 +1,35 @@
+name: monitor_keuangan
+description: "Aplikasi monitoring keuangan pribadi"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # === Tambahan untuk aplikasi keuangan ===
+  sqflite: ^2.3.3          # database lokal SQLite
+  path: ^1.9.0             # lokasi file database
+  fl_chart: ^0.68.0        # grafik pie & bar chart
+  intl: ^0.20.2            # format Rupiah & tanggal
+  provider: ^6.1.2         # state management
+  shared_preferences: ^2.3.2  # simpan setting (tema dll)
+  flutter_local_notifications: ^17.2.4   # ← ganti dari ^20.x ke ^17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.png"
