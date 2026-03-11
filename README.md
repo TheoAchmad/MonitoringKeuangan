@@ -1,16 +1,45 @@
-# monitor_keuangan
+# 📱 Monitor Keuangan
+**A Simple & Elegant Personal Finance Tracker built with Flutter**
 
-A new Flutter project.
+Monitor Keuangan adalah aplikasi mobile yang dirancang untuk membantu pengguna mencatat dan memantau arus kas (pemasukan dan pengeluaran) secara harian. Proyek ini fokus pada penggunaan **UI yang bersih** dan **manajemen data lokal** yang efisien.
 
-## Getting Started
+## 🛠 Tech Stack
+- **Framework:** Flutter (Dart)
+- **Database:** SQLite / Hive (Sesuaikan dengan yang kamu pakai)
+- **State Management:** Provider / Bloc / GetX (Sesuaikan dengan yang kamu pakai)
+- **Local Notifications:** Untuk pengingat mencatat keuangan.
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur Utama
+- **Pencatatan Transaksi:** Input pemasukan dan pengeluaran dengan kategori yang dapat disesuaikan.
+- **Ringkasan Saldo:** Tampilan total saldo, pengeluaran, dan pemasukan secara real-time di Dashboard.
+- **Visualisasi Data:** Grafik (Pie Chart/Bar Chart) untuk melihat persentase pengeluaran terbesar.
+- **Riwayat Transaksi:** Daftar riwayat keuangan yang bisa difilter berdasarkan tanggal atau kategori.
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Demo / Preview
+> *Tips: Masukkan GIF saat kamu menginput data atau screenshot halaman Dashboard.*
+| Dashboard | Input Transaksi | Riwayat |
+|---|---|---|
+| ![Dashboard](https://via.placeholder.com/200x400.png?text=Preview+1) | ![Input](https://via.placeholder.com/200x400.png?text=Preview+2) | ![History](https://via.placeholder.com/200x400.png?text=Preview+3) |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🏗 Cara Menjalankan
+1. Pastikan Flutter SDK sudah terpasang di komputer kamu.
+2. Clone repositori ini:
+   ```bash
+   git clone [https://github.com/TheoAchmad/nama-repo-keuangan.git](https://github.com/TheoAchmad/nama-repo-keuangan.git)
+3. Masuk ke direktori proyek:
+   cd nama-repo-keuangan
+4. Jalankan perintah untuk mengambil dependensi:
+   flutter pub get
+5. Jalankan aplikasi:
+   flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📝 Pelajaran yang Diambil
+Melalui proyek ini, saya belajar tentang:
+
+Implementasi sistem penyimpanan data lokal (Local Storage).
+
+Membuat custom UI/UX yang responsif untuk berbagai ukuran layar smartphone.
+
+Mengelola state aplikasi agar data sinkron antara halaman input dan dashboard.
+
+Dibuat oleh Theo Achmad Alfareza - Siswa PPLG SMKN 1 Banyuwangi.
