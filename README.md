@@ -22,16 +22,31 @@ Monitor Keuangan adalah aplikasi mobile yang dirancang untuk membantu pengguna m
 | ![Dashboard](https://via.placeholder.com/200x400.png?text=Preview+1) | ![Input](https://via.placeholder.com/200x400.png?text=Preview+2) | ![History](https://via.placeholder.com/200x400.png?text=Preview+3) |
 
 ## 🏗 Cara Menjalankan
-1. Pastikan Flutter SDK sudah terpasang di komputer kamu.
+1. Pastikan Flutter SDK sudah terpasang.
+
 2. Clone repositori ini:
-   ```bash
-   git clone [https://github.com/TheoAchmad/nama-repo-keuangan.git](https://github.com/TheoAchmad/nama-repo-keuangan.git)
+
+```bash
+git clone https://github.com/TheoAchmad/nama-repo-keuangan.git
+```
+
 3. Masuk ke direktori proyek:
-   cd nama-repo-keuangan
+
+```bash
+cd nama-repo-keuangan
+```
+
 4. Jalankan perintah untuk mengambil dependensi:
-   flutter pub get
+
+```bash
+flutter pub get
+```
+
 5. Jalankan aplikasi:
-   flutter run
+
+```bash
+flutter run
+```
 
 📝 Pelajaran yang Diambil
 Melalui proyek ini, saya belajar tentang:
