@@ -57,4 +57,4 @@ Membuat custom UI/UX yang responsif untuk berbagai ukuran layar smartphone.
 
 Mengelola state aplikasi agar data sinkron antara halaman input dan dashboard.
 
-Dibuat oleh Theo Achmad Alfareza - Siswa PPLG SMKN 1 Banyuwangi.
+-Dibuat oleh Theo Achmad Alfareza - Siswa PPLG SMKN 1 Banyuwangi.-
